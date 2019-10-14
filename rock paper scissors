@@ -1,0 +1,83 @@
+using System;
+
+namespace bewijzenmap
+{
+    class Program
+    {
+        static void Main(string[] args)
+   
+        {
+  byte playerHealth = 100;            
+   bool hasPlayerRun = false;          
+     string commandoAttack = "attack";          
+    string commandoDefend = "defend";      
+        string commandoMagic = "magic";        
+             bool isGameOver = false;         
+              string monsterName = "orc";       
+       int monsterAttack = 5;        
+      int monsterhealth = 30;          
+     Console.BackgroundColor = ConsoleColor.White;            
+  Console.ForegroundColor = ConsoleColor.DarkRed; 
+  
+  
+                
+
+                                    
+        
+        
+            Console.Clear();
+
+
+            Console.WriteLine("                          $$$$$$$$$$$$$$$$$$$$$$$$");
+            Console.WriteLine("                          $$$$$$$$$$    $$$$$$$$$$");
+            Console.WriteLine("                          $$$$$$            $$$$$$");
+            Console.WriteLine("                          $$$$                $$$$");
+            Console.WriteLine("                          $$$$$$            $$$$$$");
+            Console.WriteLine("                          $$$$$$$$$$    $$$$$$$$$$");
+            Console.WriteLine("                          $$$$$$$$$$$$$$$$$$$$$$$$");
+            Console.WriteLine("                                                  ");           
+
+            Console.WriteLine("                          $$$$$$$$$$$$$$$$$$$$$$$$");
+            Console.WriteLine("                          $$$$$$$$$$$$$$$$$$$$$$$$");
+            Console.WriteLine("                          $$$$$$$$$$$$$$$$$$$$$$$$");
+            Console.WriteLine("                          $$$$$$$$$$$$$$$$$$$$$$$$");
+            Console.WriteLine("                          $$$$$$$$$$$$$$$$$$$$$$$$");
+            Console.WriteLine("                          $$$$$$$$$$$$$$$$$$$$$$$$");
+            Console.WriteLine("                          $$$$$$$$$$$$$$$$$$$$$$$$");
+            Console.WriteLine("                          $$$$$$$$$$$$$$$$$$$$$$$$");
+            Console.WriteLine("                                                  ");
+
+
+           Console.WriteLine("                          $$$$$$$$$$$$$$$$$$$$$$$$");
+           Console.WriteLine("                          $$$$$$$$$$$$$$$$$$$$$  $");
+           Console.WriteLine("                          $$$$$   $$$$$$$$$$$  $$$");
+           Console.WriteLine("                          $$$       $$$$$$$  $$$$$");
+           Console.WriteLine("                          $$$$$$$$$$$      $$$$$$$");
+           Console.WriteLine("                          $$$$$$$$$$$      $$$$$$$");
+           Console.WriteLine("                          $$$       $$$$$$$  $$$$$");
+           Console.WriteLine("                          $$$$$   $$$$$$$$$$$  $$$");
+           Console.WriteLine("                          $$$$$$$$$$$$$$$$$$$$$  $");
+           Console.WriteLine("                          $$$$$$$$$$$$$$$$$$$$$$$$");
+
+
+
+
+
+Console.CursorTop += 2;
+            Console.CursorLeft = 10;
+            Console.Write ("Deze tekst staat nu hier!");
+
+            Console.WriteLine("Type een van de volgende commandos");
+            Console.WriteLine("kies uit: " + commandoAttack + "," + commandoDefend + "of" + commandoMagic);
+            
+            int optelsom = playerHealth + monsterAttack;
+            Console.WriteLine("de optelsom is:" + optelsom);
+            Console.ReadLine();
+            //input van gebruiker 
+
+        }
+    }
+}
+
+
+                   
